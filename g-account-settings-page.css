@@ -4,7 +4,7 @@ body {
     padding: 0;
     background: rgb(245, 245, 245);
     background: linear-gradient(176deg, rgba(245, 245, 245, 1) 0%, rgba(102, 160, 144, 1) 94%);
-}
+    }
 
 .container {
     display: flex;
@@ -36,11 +36,11 @@ body {
 
 .username-pic {
     display: flex;
-    align-items: center;
+    align-items: center; /* Align items vertically in the flex container */
 }
 
 .user {
-    margin-left: 5%;
+    margin-left: 5%; /* Adjust the margin as needed */
 }
 
 .username-info {
@@ -78,7 +78,7 @@ hr {
 }
 
 .form-group input[type="file"] {
-    display: none;
+    display: none; /* Hide the default file input */
 }
 
 .label-upload-photo {
@@ -103,7 +103,7 @@ button {
     border: none;
     border-radius: 3px;
     cursor: pointer;
-}
+    }
 
 .tab-pane {
     display: none;
@@ -113,7 +113,7 @@ button {
     display: block;
 }
 
-.form-group button {
+.form-group button{
     float: right;
 }
 

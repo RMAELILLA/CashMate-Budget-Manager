@@ -36,12 +36,38 @@
         <div class="section2">
             <div class="tab-content">
                 <div class="tab-pane fade active show" id="account-general">
-                    <!-- Content for Account Settings -->
+                    <div class="card-body media align-items-center">
+                        <div class="form-group">
+                            <label class="form-label label-upload-photo">Update Profile Photo</label>
+                            <input type="file" name="profile-photo">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label class="form-label">Name</label>
+                            <button type="button">Edit</button>
+                            <p><b>Juan Dela Cruz</b></p>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">E-mail Address</label>
+                            <button type="button">Edit</button>
+                            <p id="email"><b>username@example.com</b></p>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Password</label>
+                            <button type="button">Update</button>
+                            <p><b>********</b></p>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Delete Account?</label>
+                            <button type="button">Delete</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
     <script src="g-account-settings-page.js"></script>
 </body>
 </html>
