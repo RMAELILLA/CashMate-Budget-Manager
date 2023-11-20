@@ -1,0 +1,155 @@
+body {
+    font-family: 'Lexend', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.planner-header {
+    background-color: #328f8a;
+    padding: 10px;
+    padding-left: 10%;
+    background: rgb(245, 245, 245);
+    background: linear-gradient(176deg, #C8F0C2 0%, #82be80 94%);
+}
+
+.planner-nav {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+.planner-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.planner-nav li {
+    margin-right: 10px;
+}
+
+.planner-nav a {
+    text-decoration: none;
+    color: #80947F;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 10px;
+    word-spacing: 5px;
+}
+
+.planner-nav li:hover a {
+    color: black;
+    font-weight: bold;
+}
+
+.plan-retirement {
+    display: flex;
+    justify-content: space-between;
+    border: 0;
+}
+
+.container {
+    padding: 20%;
+    padding-top: 0;
+}
+
+.retire {
+    flex: 1;
+}
+
+.retirement {
+    flex: 1;
+    border: 2px groove #ccc;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.retirement img {
+    position: relative;
+    top: 10px;
+    width: 40px;
+    height: auto;
+}
+
+.retirement-info {
+    display: inline-flex;
+    margin: 0;
+}
+
+.target {
+    display: inline-flex;
+    margin-left: 25%;
+}
+
+.progress-bar-container {
+    margin-top: 10px;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: #6ABA8C;
+    width: 10%;
+}
+
+.deposit-btn {
+    margin: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #6ABA8C;
+    color: #fff;
+    width: 100%;
+    max-width: 50%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.deposit-hist {
+    flex: 1.2;
+    height: 1.2;
+    margin-left: 10px;
+    border: 2px groove #ccc;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+hr {
+    border: 1px solid #2e2d2d;
+}
+
+.deposit-info {
+    margin: 5%;
+    font-size: 12px;
+}
+
+.deposit-info p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deposit-info p span {
+    font-weight: bold;
+}
+
+.deposit-info p span.big {
+    font-size: 20px;
+    font-weight: bolder;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASHMATE | Planner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="f-planner-page.css">
+</head>
+<body>
+    <div class="planner">
+        <div class="planner-header">
+            <h1><b>Save for the future.</b></h1>
+            <div class="planner-nav">
+                <ul>
+                    <li><a href="#" onclick="showRetirement()">Retirement</a></li>
+                    <li><a href="#">Vehicle</a></li>
+                    <li><a href="#">House and Lot</a></li>
+                    <li><a href="#">+ add new plan</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="plan-retirement">
+                <div class="retire">
+                    <div class="retirement">
+                        <img src="retirement-icon.jpg" alt="Retirement Icon">
+                        <div class="retirement-info">
+                            <h3>Retirement</h3>
+                        </div>
+                        <div style="font-size: small;"><p><b>P2,000,000</b><span class="target">Target: P30,000,000.00</span></p></div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill"></div>
+                            </div>
+                        </div>
+                        <div style="font-size: small; font-weight: bold; margin-left: 20px;">
+                            <p>Monthly Deposit:</p>
+                            <span class="big" style="margin-left: 20px;">P50,000.00</span>
+                            <p>Target Year:</p>
+                            <span style="margin-left: 20px;">2076</span>
+                        </div>
+                    </div>
+                    <div class="deposit-btn">
+                        <button onclick="deposit()">Deposit Now</button>
+                    </div>
+                </div>
+                <div class="deposit-hist">
+                    <h3>Deposit History</h3>
+                    <hr>
+                    <div class="deposit-info">
+                        <p><span style="font-size: medium; font-weight: bolder;">Deposit</span><span class="big">P50,000.00</span></p>
+                        <p><span>November</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="f-planner-page.js"></script>
+</body>
+</html>
